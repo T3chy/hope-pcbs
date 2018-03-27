@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name led-sensor-2-rescue)(type Legacy)(uri ${KIPRJMOD}/led-sensor-2-rescue.lib)(options "")(descr ""))
-)

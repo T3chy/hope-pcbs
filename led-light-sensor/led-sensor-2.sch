@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L led-sensor-2-rescue:LMC6482-RESCUE-led-sensor-2 U1
+L Amplifier_Operational:LMC6482 U1
 U 1 1 58FBD66A
 P 5300 3900
 F 0 "U1" H 5400 3600 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 5300 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L led-sensor-2-rescue:LMC6482-RESCUE-led-sensor-2 U1
+L Amplifier_Operational:LMC6482 U1
 U 2 1 58FBD66B
 P 7400 4000
 F 0 "U1" H 7550 3750 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 7400 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L led-sensor-2-rescue:R-RESCUE-led-sensor-2 R3
+L Device:R R3
 U 1 1 58FBD66D
 P 5300 5300
 F 0 "R3" V 5093 5300 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 5300 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led-sensor-2-rescue:LED-RESCUE-led-sensor-2 D1
+L Device:LED D1
 U 1 1 58FBD66F
 P 3800 3350
 F 0 "D1" V 3838 3233 50  0000 R CNN
@@ -59,18 +59,7 @@ F 3 "" H 3800 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR01
-U 1 1 58FBD670
-P 7300 4300
-F 0 "#PWR01" H 7300 4050 50  0001 C CNN
-F 1 "GND" H 7305 4127 50  0000 C CNN
-F 2 "" H 7300 4300 50  0001 C CNN
-F 3 "" H 7300 4300 50  0001 C CNN
-	1    7300 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L led-sensor-2-rescue:C-RESCUE-led-sensor-2 C1
+L Device:C C1
 U 1 1 58FBD672
 P 5300 4900
 F 0 "C1" V 5048 4900 50  0000 C CNN
@@ -81,7 +70,7 @@ F 3 "" H 5300 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR03
+L power:+3.3V #PWR03
 U 1 1 58FBD673
 P 7300 3700
 F 0 "#PWR03" H 7300 3550 50  0001 C CNN
@@ -92,7 +81,7 @@ F 3 "" H 7300 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L led-sensor-2-rescue:POT-RESCUE-led-sensor-2 RV1
+L Device:POT RV1
 U 1 1 58FBD677
 P 6500 4100
 F 0 "RV1" H 6430 4146 50  0000 R CNN
@@ -111,7 +100,7 @@ Wire Wire Line
 Text Label 2750 3000 0    60   ~ 0
 Vout
 $Comp
-L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR0101
+L power:+3.3V #PWR0101
 U 1 1 5ABA0602
 P 3800 2700
 F 0 "#PWR0101" H 3800 2550 50  0001 C CNN
@@ -146,18 +135,7 @@ Connection ~ 5700 4900
 Wire Wire Line
 	5700 4900 5700 3900
 $Comp
-L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR0102
-U 1 1 5ABA1F09
-P 5200 4200
-F 0 "#PWR0102" H 5200 3950 50  0001 C CNN
-F 1 "GND" H 5205 4027 50  0000 C CNN
-F 2 "" H 5200 4200 50  0001 C CNN
-F 3 "" H 5200 4200 50  0001 C CNN
-	1    5200 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR0103
+L power:+3.3V #PWR0103
 U 1 1 5ABA1F22
 P 5200 3600
 F 0 "#PWR0103" H 5200 3450 50  0001 C CNN
@@ -190,7 +168,7 @@ F 3 "~" H 4300 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR0104
+L power:+3.3V #PWR0104
 U 1 1 5ABA23CC
 P 4300 2700
 F 0 "#PWR0104" H 4300 2550 50  0001 C CNN
@@ -214,32 +192,10 @@ Wire Wire Line
 Wire Wire Line
 	3800 4000 4900 4000
 Connection ~ 4900 4000
-$Comp
-L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR0105
-U 1 1 5ABA3587
-P 4300 4800
-F 0 "#PWR0105" H 4300 4550 50  0001 C CNN
-F 1 "GND" H 4305 4627 50  0000 C CNN
-F 2 "" H 4300 4800 50  0001 C CNN
-F 3 "" H 4300 4800 50  0001 C CNN
-	1    4300 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 4800 4300 4500
 $Comp
-L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR0106
-U 1 1 5ABA442C
-P 6500 4800
-F 0 "#PWR0106" H 6500 4550 50  0001 C CNN
-F 1 "GND" H 6505 4627 50  0000 C CNN
-F 2 "" H 6500 4800 50  0001 C CNN
-F 3 "" H 6500 4800 50  0001 C CNN
-	1    6500 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR0107
+L power:+3.3V #PWR0107
 U 1 1 5ABA4449
 P 6500 3700
 F 0 "#PWR0107" H 6500 3550 50  0001 C CNN
@@ -305,11 +261,11 @@ $EndComp
 Wire Wire Line
 	2900 2900 2900 2850
 Wire Wire Line
-	2600 2900 2900 2900
+	2600 2900 2650 2900
 Wire Wire Line
 	2900 3100 2900 3150
 Wire Wire Line
-	2600 3100 2900 3100
+	2600 3100 2650 3100
 Wire Wire Line
 	3200 2850 2900 2850
 Connection ~ 2900 2850
@@ -320,4 +276,76 @@ Wire Wire Line
 Connection ~ 2900 3150
 Wire Wire Line
 	2900 3150 2900 3300
+$Comp
+L power:GND #PWR0102
+U 1 1 5ABA9325
+P 4300 4800
+F 0 "#PWR0102" H 4300 4550 50  0001 C CNN
+F 1 "GND" H 4305 4627 50  0000 C CNN
+F 2 "" H 4300 4800 50  0001 C CNN
+F 3 "" H 4300 4800 50  0001 C CNN
+	1    4300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5ABA9344
+P 5200 4200
+F 0 "#PWR0105" H 5200 3950 50  0001 C CNN
+F 1 "GND" H 5205 4027 50  0000 C CNN
+F 2 "" H 5200 4200 50  0001 C CNN
+F 3 "" H 5200 4200 50  0001 C CNN
+	1    5200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5ABA9363
+P 6500 4800
+F 0 "#PWR0106" H 6500 4550 50  0001 C CNN
+F 1 "GND" H 6505 4627 50  0000 C CNN
+F 2 "" H 6500 4800 50  0001 C CNN
+F 3 "" H 6500 4800 50  0001 C CNN
+	1    6500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5ABA93F5
+P 7300 4300
+F 0 "#PWR0108" H 7300 4050 50  0001 C CNN
+F 1 "GND" H 7305 4127 50  0000 C CNN
+F 2 "" H 7300 4300 50  0001 C CNN
+F 3 "" H 7300 4300 50  0001 C CNN
+	1    7300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5ABA91E7
+P 2650 2900
+F 0 "#FLG0101" H 2650 2975 50  0001 C CNN
+F 1 "PWR_FLAG" H 2650 3074 50  0000 C CNN
+F 2 "" H 2650 2900 50  0001 C CNN
+F 3 "" H 2650 2900 50  0001 C CNN
+	1    2650 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2650 2900
+Wire Wire Line
+	2650 2900 2900 2900
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5ABA9242
+P 2650 3100
+F 0 "#FLG0102" H 2650 3175 50  0001 C CNN
+F 1 "PWR_FLAG" H 2650 3273 50  0000 C CNN
+F 2 "" H 2650 3100 50  0001 C CNN
+F 3 "" H 2650 3100 50  0001 C CNN
+	1    2650 3100
+	1    0    0    1   
+$EndComp
+Connection ~ 2650 3100
+Wire Wire Line
+	2650 3100 2900 3100
 $EndSCHEMATC
