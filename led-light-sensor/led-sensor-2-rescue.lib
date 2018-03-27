@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2
+# +3.3V-RESCUE-led-sensor-2
 #
-DEF led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR 0 0 Y Y 1 F P
+DEF +3.3V-RESCUE-led-sensor-2 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2" 0 140 50 H V C CNN
+F1 "+3.3V-RESCUE-led-sensor-2" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# led-sensor-2-rescue:C-RESCUE-led-sensor-2
+# C-RESCUE-led-sensor-2
 #
-DEF led-sensor-2-rescue:C-RESCUE-led-sensor-2 C 0 10 N Y 1 F N
+DEF C-RESCUE-led-sensor-2 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "led-sensor-2-rescue:C-RESCUE-led-sensor-2" 25 -100 50 H V L CNN
+F1 "C-RESCUE-led-sensor-2" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -34,11 +34,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# led-sensor-2-rescue:CONN_01X03-RESCUE-led-sensor-2
+# CONN_01X03-RESCUE-led-sensor-2
 #
-DEF led-sensor-2-rescue:CONN_01X03-RESCUE-led-sensor-2 J 0 40 Y N 1 F N
+DEF CONN_01X03-RESCUE-led-sensor-2 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "led-sensor-2-rescue:CONN_01X03-RESCUE-led-sensor-2" 100 0 50 V V C CNN
+F1 "CONN_01X03-RESCUE-led-sensor-2" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -58,11 +58,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# led-sensor-2-rescue:GND-RESCUE-led-sensor-2
+# GND-RESCUE-led-sensor-2
 #
-DEF led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR 0 0 Y Y 1 F P
+DEF GND-RESCUE-led-sensor-2 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "led-sensor-2-rescue:GND-RESCUE-led-sensor-2" 0 -150 50 H V C CNN
+F1 "GND-RESCUE-led-sensor-2" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -71,11 +71,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# led-sensor-2-rescue:LED-RESCUE-led-sensor-2
+# LED-RESCUE-led-sensor-2
 #
-DEF led-sensor-2-rescue:LED-RESCUE-led-sensor-2 D 0 40 Y N 1 F N
+DEF LED-RESCUE-led-sensor-2 D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "led-sensor-2-rescue:LED-RESCUE-led-sensor-2" 0 -100 50 H V C CNN
+F1 "LED-RESCUE-led-sensor-2" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -92,11 +92,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# led-sensor-2-rescue:LMC6482-RESCUE-led-sensor-2
+# LMC6482-RESCUE-led-sensor-2
 #
-DEF led-sensor-2-rescue:LMC6482-RESCUE-led-sensor-2 U 0 20 Y Y 2 F N
+DEF LMC6482-RESCUE-led-sensor-2 U 0 20 Y Y 2 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "led-sensor-2-rescue:LMC6482-RESCUE-led-sensor-2" 0 -200 50 H V L CNN
+F1 "LMC6482-RESCUE-led-sensor-2" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -119,11 +119,11 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# led-sensor-2-rescue:POT-RESCUE-led-sensor-2
+# POT-RESCUE-led-sensor-2
 #
-DEF led-sensor-2-rescue:POT-RESCUE-led-sensor-2 RV 0 40 N N 1 F N
+DEF POT-RESCUE-led-sensor-2 RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "led-sensor-2-rescue:POT-RESCUE-led-sensor-2" -100 0 50 V V C CNN
+F1 "POT-RESCUE-led-sensor-2" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -139,11 +139,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# led-sensor-2-rescue:R-RESCUE-led-sensor-2
+# R-RESCUE-led-sensor-2
 #
-DEF led-sensor-2-rescue:R-RESCUE-led-sensor-2 R 0 0 N Y 1 F N
+DEF R-RESCUE-led-sensor-2 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "led-sensor-2-rescue:R-RESCUE-led-sensor-2" 0 0 50 V V C CNN
+F1 "R-RESCUE-led-sensor-2" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

@@ -1,99 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
+EESchema Schematic File Version 4
 LIBS:led-sensor-2-cache
 EELAYER 26 0
 EELAYER END
@@ -110,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LMC6482 U1
+L led-sensor-2-rescue:LMC6482-RESCUE-led-sensor-2 U1
 U 1 1 58FBD66A
 P 5350 3950
 F 0 "U1" H 5350 3472 50  0000 C CNN
@@ -121,7 +26,7 @@ F 3 "" H 5350 3950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L LMC6482 U1
+L led-sensor-2-rescue:LMC6482-RESCUE-led-sensor-2 U1
 U 2 1 58FBD66B
 P 6900 4050
 F 0 "U1" H 7241 4096 50  0000 L CNN
@@ -132,7 +37,7 @@ F 3 "" H 6900 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L led-sensor-2-rescue:R-RESCUE-led-sensor-2 R1
 U 1 1 58FBD66C
 P 4700 3850
 F 0 "R1" V 4493 3850 50  0000 C CNN
@@ -143,7 +48,7 @@ F 3 "" H 4700 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L led-sensor-2-rescue:R-RESCUE-led-sensor-2 R3
 U 1 1 58FBD66D
 P 5350 3200
 F 0 "R3" V 5143 3200 50  0000 C CNN
@@ -154,7 +59,7 @@ F 3 "" H 5350 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L led-sensor-2-rescue:R-RESCUE-led-sensor-2 R2
 U 1 1 58FBD66E
 P 4700 4350
 F 0 "R2" H 4630 4304 50  0000 R CNN
@@ -165,7 +70,7 @@ F 3 "" H 4700 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D1
+L led-sensor-2-rescue:LED-RESCUE-led-sensor-2 D1
 U 1 1 58FBD66F
 P 4200 4350
 F 0 "D1" V 4238 4233 50  0000 R CNN
@@ -176,7 +81,7 @@ F 3 "" H 4200 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR01
+L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR01
 U 1 1 58FBD670
 P 6800 4350
 F 0 "#PWR01" H 6800 4100 50  0001 C CNN
@@ -187,7 +92,7 @@ F 3 "" H 6800 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR02
 U 1 1 58FBD671
 P 4400 3850
 F 0 "#PWR02" H 4400 3600 50  0001 C CNN
@@ -198,7 +103,7 @@ F 3 "" H 4400 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L led-sensor-2-rescue:C-RESCUE-led-sensor-2 C1
 U 1 1 58FBD672
 P 5350 2800
 F 0 "C1" V 5098 2800 50  0000 C CNN
@@ -209,7 +114,7 @@ F 3 "" H 5350 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR03
+L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR03
 U 1 1 58FBD673
 P 6800 3750
 F 0 "#PWR03" H 6800 3600 50  0001 C CNN
@@ -220,7 +125,7 @@ F 3 "" H 6800 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR04
 U 1 1 58FBD674
 P 4450 4650
 F 0 "#PWR04" H 4450 4400 50  0001 C CNN
@@ -231,7 +136,7 @@ F 3 "" H 4450 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR05
+L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR05
 U 1 1 58FBD675
 P 5250 4250
 F 0 "#PWR05" H 5250 4100 50  0001 C CNN
@@ -242,7 +147,7 @@ F 3 "" H 5250 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR06
+L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR06
 U 1 1 58FBD676
 P 5250 3650
 F 0 "#PWR06" H 5250 3400 50  0001 C CNN
@@ -253,7 +158,7 @@ F 3 "" H 5250 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L POT RV1
+L led-sensor-2-rescue:POT-RESCUE-led-sensor-2 RV1
 U 1 1 58FBD677
 P 6300 4150
 F 0 "RV1" H 6230 4196 50  0000 R CNN
@@ -264,7 +169,7 @@ F 3 "" H 6300 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR07
 U 1 1 58FBD678
 P 6300 4300
 F 0 "#PWR07" H 6300 4050 50  0001 C CNN
@@ -275,7 +180,7 @@ F 3 "" H 6300 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR08
+L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR08
 U 1 1 58FBD679
 P 6300 4000
 F 0 "#PWR08" H 6300 3850 50  0001 C CNN
@@ -286,7 +191,7 @@ F 3 "" H 6300 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J1
+L led-sensor-2-rescue:CONN_01X03-RESCUE-led-sensor-2 J1
 U 1 1 58FC2403
 P 4000 2900
 F 0 "J1" H 3919 2575 50  0000 C CNN
@@ -297,7 +202,7 @@ F 3 "" H 4000 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR09
+L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR09
 U 1 1 58FC24F5
 P 4300 3000
 F 0 "#PWR09" H 4300 2750 50  0001 C CNN
@@ -308,7 +213,7 @@ F 3 "" H 4300 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR010
+L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR010
 U 1 1 58FC2512
 P 4300 2800
 F 0 "#PWR010" H 4300 2650 50  0001 C CNN
@@ -321,23 +226,23 @@ $EndComp
 Wire Wire Line
 	4400 3850 4550 3850
 Wire Wire Line
-	4850 3850 5050 3850
+	4850 3850 4950 3850
 Wire Wire Line
 	4700 4200 4700 4050
 Wire Wire Line
-	4200 4050 5050 4050
+	4200 4050 4700 4050
 Wire Wire Line
 	4200 4050 4200 4200
 Connection ~ 4700 4050
 Wire Wire Line
 	4200 4500 4200 4650
 Wire Wire Line
-	4200 4650 4700 4650
+	4200 4650 4450 4650
 Wire Wire Line
 	4700 4650 4700 4500
 Connection ~ 4450 4650
 Wire Wire Line
-	4950 2800 4950 3850
+	4950 2800 4950 3200
 Wire Wire Line
 	4950 2800 5200 2800
 Connection ~ 4950 3850
@@ -347,7 +252,7 @@ Connection ~ 4950 3200
 Wire Wire Line
 	5500 2800 5800 2800
 Wire Wire Line
-	5800 2800 5800 3950
+	5800 2800 5800 3200
 Wire Wire Line
 	5500 3200 5800 3200
 Connection ~ 5800 3200
@@ -365,7 +270,19 @@ Wire Wire Line
 Text Label 4350 2900 0    60   ~ 0
 Vout
 Wire Wire Line
-	5650 3950 6600 3950
+	5650 3950 5800 3950
 Wire Wire Line
 	6450 4150 6600 4150
+Wire Wire Line
+	4700 4050 5050 4050
+Wire Wire Line
+	4450 4650 4700 4650
+Wire Wire Line
+	4950 3850 5050 3850
+Wire Wire Line
+	4950 3200 4950 3850
+Wire Wire Line
+	5800 3200 5800 3950
+Wire Wire Line
+	5800 3950 6600 3950
 $EndSCHEMATC
