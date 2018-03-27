@@ -2,13 +2,13 @@ EESchema Schematic File Version 4
 LIBS:led-sensor-2-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "lun. 30 mars 2015"
-Rev ""
-Comp ""
+Title "LED Light Sensor"
+Date "2018-03-27"
+Rev "3"
+Comp "Hands-On Practical Electronics"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -17,272 +17,307 @@ $EndDescr
 $Comp
 L led-sensor-2-rescue:LMC6482-RESCUE-led-sensor-2 U1
 U 1 1 58FBD66A
-P 5350 3950
-F 0 "U1" H 5350 3472 50  0000 C CNN
-F 1 "LMC6482" H 5350 3563 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm" H 5350 3950 50  0001 C CNN
-F 3 "" H 5350 3950 50  0001 C CNN
-	1    5350 3950
-	1    0    0    1   
+P 5300 3900
+F 0 "U1" H 5400 3600 50  0000 C CNN
+F 1 "LMC6482" H 5400 3700 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5300 3900 50  0001 C CNN
+F 3 "" H 5300 3900 50  0001 C CNN
+	1    5300 3900
+	1    0    0    -1  
 $EndComp
 $Comp
 L led-sensor-2-rescue:LMC6482-RESCUE-led-sensor-2 U1
 U 2 1 58FBD66B
-P 6900 4050
-F 0 "U1" H 7241 4096 50  0000 L CNN
-F 1 "LMC6482" H 7241 4005 50  0000 L CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm" H 6900 4050 50  0001 C CNN
-F 3 "" H 6900 4050 50  0001 C CNN
-	2    6900 4050
+P 7400 4000
+F 0 "U1" H 7550 3750 50  0000 L CNN
+F 1 "LMC6482" H 7450 3850 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 7400 4000 50  0001 C CNN
+F 3 "" H 7400 4000 50  0001 C CNN
+	2    7400 4000
 	1    0    0    -1  
-$EndComp
-$Comp
-L led-sensor-2-rescue:R-RESCUE-led-sensor-2 R1
-U 1 1 58FBD66C
-P 4700 3850
-F 0 "R1" V 4493 3850 50  0000 C CNN
-F 1 "1k" V 4584 3850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 4630 3850 50  0001 C CNN
-F 3 "" H 4700 3850 50  0001 C CNN
-	1    4700 3850
-	0    1    1    0   
 $EndComp
 $Comp
 L led-sensor-2-rescue:R-RESCUE-led-sensor-2 R3
 U 1 1 58FBD66D
-P 5350 3200
-F 0 "R3" V 5143 3200 50  0000 C CNN
-F 1 "47k" V 5234 3200 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5280 3200 50  0001 C CNN
-F 3 "" H 5350 3200 50  0001 C CNN
-	1    5350 3200
+P 5300 5300
+F 0 "R3" V 5093 5300 50  0000 C CNN
+F 1 "5.1M" V 5184 5300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5230 5300 50  0001 C CNN
+F 3 "" H 5300 5300 50  0001 C CNN
+	1    5300 5300
 	0    1    1    0   
-$EndComp
-$Comp
-L led-sensor-2-rescue:R-RESCUE-led-sensor-2 R2
-U 1 1 58FBD66E
-P 4700 4350
-F 0 "R2" H 4630 4304 50  0000 R CNN
-F 1 "1M" H 4630 4395 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 4630 4350 50  0001 C CNN
-F 3 "" H 4700 4350 50  0001 C CNN
-	1    4700 4350
-	-1   0    0    1   
 $EndComp
 $Comp
 L led-sensor-2-rescue:LED-RESCUE-led-sensor-2 D1
 U 1 1 58FBD66F
-P 4200 4350
-F 0 "D1" V 4238 4233 50  0000 R CNN
-F 1 "LED" V 4147 4233 50  0000 R CNN
-F 2 "LEDs:LED_D5.0mm" H 4200 4350 50  0001 C CNN
-F 3 "" H 4200 4350 50  0001 C CNN
-	1    4200 4350
-	0    -1   -1   0   
+P 3800 3350
+F 0 "D1" V 3838 3233 50  0000 R CNN
+F 1 "LED" V 3747 3233 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3800 3350 50  0001 C CNN
+F 3 "" H 3800 3350 50  0001 C CNN
+	1    3800 3350
+	0    1    1    0   
 $EndComp
 $Comp
 L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR01
 U 1 1 58FBD670
-P 6800 4350
-F 0 "#PWR01" H 6800 4100 50  0001 C CNN
-F 1 "GND" H 6805 4177 50  0000 C CNN
-F 2 "" H 6800 4350 50  0001 C CNN
-F 3 "" H 6800 4350 50  0001 C CNN
-	1    6800 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR02
-U 1 1 58FBD671
-P 4400 3850
-F 0 "#PWR02" H 4400 3600 50  0001 C CNN
-F 1 "GND" H 4405 3677 50  0000 C CNN
-F 2 "" H 4400 3850 50  0001 C CNN
-F 3 "" H 4400 3850 50  0001 C CNN
-	1    4400 3850
+P 7300 4300
+F 0 "#PWR01" H 7300 4050 50  0001 C CNN
+F 1 "GND" H 7305 4127 50  0000 C CNN
+F 2 "" H 7300 4300 50  0001 C CNN
+F 3 "" H 7300 4300 50  0001 C CNN
+	1    7300 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L led-sensor-2-rescue:C-RESCUE-led-sensor-2 C1
 U 1 1 58FBD672
-P 5350 2800
-F 0 "C1" V 5098 2800 50  0000 C CNN
-F 1 "1u" V 5189 2800 50  0000 C CNN
-F 2 "Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5388 2650 50  0001 C CNN
-F 3 "" H 5350 2800 50  0001 C CNN
-	1    5350 2800
+P 5300 4900
+F 0 "C1" V 5048 4900 50  0000 C CNN
+F 1 "100n" V 5139 4900 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 5338 4750 50  0001 C CNN
+F 3 "" H 5300 4900 50  0001 C CNN
+	1    5300 4900
 	0    1    1    0   
 $EndComp
 $Comp
 L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR03
 U 1 1 58FBD673
-P 6800 3750
-F 0 "#PWR03" H 6800 3600 50  0001 C CNN
-F 1 "+3.3V" H 6815 3923 50  0000 C CNN
-F 2 "" H 6800 3750 50  0001 C CNN
-F 3 "" H 6800 3750 50  0001 C CNN
-	1    6800 3750
+P 7300 3700
+F 0 "#PWR03" H 7300 3550 50  0001 C CNN
+F 1 "+3.3V" H 7315 3873 50  0000 C CNN
+F 2 "" H 7300 3700 50  0001 C CNN
+F 3 "" H 7300 3700 50  0001 C CNN
+	1    7300 3700
 	1    0    0    -1  
-$EndComp
-$Comp
-L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR04
-U 1 1 58FBD674
-P 4450 4650
-F 0 "#PWR04" H 4450 4400 50  0001 C CNN
-F 1 "GND" H 4455 4477 50  0000 C CNN
-F 2 "" H 4450 4650 50  0001 C CNN
-F 3 "" H 4450 4650 50  0001 C CNN
-	1    4450 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR05
-U 1 1 58FBD675
-P 5250 4250
-F 0 "#PWR05" H 5250 4100 50  0001 C CNN
-F 1 "+3.3V" H 5265 4423 50  0000 C CNN
-F 2 "" H 5250 4250 50  0001 C CNN
-F 3 "" H 5250 4250 50  0001 C CNN
-	1    5250 4250
-	-1   0    0    1   
-$EndComp
-$Comp
-L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR06
-U 1 1 58FBD676
-P 5250 3650
-F 0 "#PWR06" H 5250 3400 50  0001 C CNN
-F 1 "GND" H 5255 3477 50  0000 C CNN
-F 2 "" H 5250 3650 50  0001 C CNN
-F 3 "" H 5250 3650 50  0001 C CNN
-	1    5250 3650
-	-1   0    0    1   
 $EndComp
 $Comp
 L led-sensor-2-rescue:POT-RESCUE-led-sensor-2 RV1
 U 1 1 58FBD677
-P 6300 4150
-F 0 "RV1" H 6230 4196 50  0000 R CNN
-F 1 "POT" H 6230 4105 50  0000 R CNN
-F 2 "Potentiometers:Potentiometer_Alps_RK09L_Sleve_Single_Horizontal" H 6300 4150 50  0001 C CNN
-F 3 "" H 6300 4150 50  0001 C CNN
-	1    6300 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR07
-U 1 1 58FBD678
-P 6300 4300
-F 0 "#PWR07" H 6300 4050 50  0001 C CNN
-F 1 "GND" H 6305 4127 50  0000 C CNN
-F 2 "" H 6300 4300 50  0001 C CNN
-F 3 "" H 6300 4300 50  0001 C CNN
-	1    6300 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR08
-U 1 1 58FBD679
-P 6300 4000
-F 0 "#PWR08" H 6300 3850 50  0001 C CNN
-F 1 "+3.3V" H 6315 4173 50  0000 C CNN
-F 2 "" H 6300 4000 50  0001 C CNN
-F 3 "" H 6300 4000 50  0001 C CNN
-	1    6300 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L led-sensor-2-rescue:CONN_01X03-RESCUE-led-sensor-2 J1
-U 1 1 58FC2403
-P 4000 2900
-F 0 "J1" H 3919 2575 50  0000 C CNN
-F 1 "CONN_01X03" H 3919 2666 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4000 2900 50  0001 C CNN
-F 3 "" H 4000 2900 50  0001 C CNN
-	1    4000 2900
-	-1   0    0    1   
-$EndComp
-$Comp
-L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR09
-U 1 1 58FC24F5
-P 4300 3000
-F 0 "#PWR09" H 4300 2750 50  0001 C CNN
-F 1 "GND" H 4305 2827 50  0000 C CNN
-F 2 "" H 4300 3000 50  0001 C CNN
-F 3 "" H 4300 3000 50  0001 C CNN
-	1    4300 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR010
-U 1 1 58FC2512
-P 4300 2800
-F 0 "#PWR010" H 4300 2650 50  0001 C CNN
-F 1 "+3.3V" H 4315 2973 50  0000 C CNN
-F 2 "" H 4300 2800 50  0001 C CNN
-F 3 "" H 4300 2800 50  0001 C CNN
-	1    4300 2800
+P 6500 4100
+F 0 "RV1" H 6430 4146 50  0000 R CNN
+F 1 "POT" H 6430 4055 50  0000 R CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK09L_Sleve_Single_Horizontal" H 6500 4100 50  0001 C CNN
+F 3 "" H 6500 4100 50  0001 C CNN
+	1    6500 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 3850 4550 3850
-Wire Wire Line
-	4850 3850 4950 3850
-Wire Wire Line
-	4700 4200 4700 4050
-Wire Wire Line
-	4200 4050 4700 4050
-Wire Wire Line
-	4200 4050 4200 4200
-Connection ~ 4700 4050
-Wire Wire Line
-	4200 4500 4200 4650
-Wire Wire Line
-	4200 4650 4450 4650
-Wire Wire Line
-	4700 4650 4700 4500
-Connection ~ 4450 4650
-Wire Wire Line
-	4950 2800 4950 3200
-Wire Wire Line
-	4950 2800 5200 2800
-Connection ~ 4950 3850
-Wire Wire Line
-	5200 3200 4950 3200
-Connection ~ 4950 3200
-Wire Wire Line
-	5500 2800 5800 2800
-Wire Wire Line
-	5800 2800 5800 3200
-Wire Wire Line
-	5500 3200 5800 3200
-Connection ~ 5800 3200
-Connection ~ 5800 3950
-Wire Wire Line
-	4200 2800 4300 2800
-Wire Wire Line
-	4200 3000 4300 3000
-Wire Wire Line
-	7200 4050 7600 4050
-Text Label 7400 4050 0    60   ~ 0
+	7700 4000 8100 4000
+Text Label 7900 4000 0    60   ~ 0
 Vout
 Wire Wire Line
-	4200 2900 4500 2900
-Text Label 4350 2900 0    60   ~ 0
+	2600 3000 2900 3000
+Text Label 2750 3000 0    60   ~ 0
 Vout
+$Comp
+L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR0101
+U 1 1 5ABA0602
+P 3800 2700
+F 0 "#PWR0101" H 3800 2550 50  0001 C CNN
+F 1 "+3.3V" H 3815 2873 50  0000 C CNN
+F 2 "" H 3800 2700 50  0001 C CNN
+F 3 "" H 3800 2700 50  0001 C CNN
+	1    3800 2700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5650 3950 5800 3950
+	3800 2700 3800 3200
 Wire Wire Line
-	6450 4150 6600 4150
+	4900 4000 4900 4900
 Wire Wire Line
-	4700 4050 5050 4050
+	4900 5300 5150 5300
 Wire Wire Line
-	4450 4650 4700 4650
+	4900 4000 5000 4000
 Wire Wire Line
-	4950 3850 5050 3850
+	5450 5300 5700 5300
 Wire Wire Line
-	4950 3200 4950 3850
+	5700 5300 5700 4900
 Wire Wire Line
-	5800 3200 5800 3950
+	5700 3900 5600 3900
 Wire Wire Line
-	5800 3950 6600 3950
+	5150 4900 4900 4900
+Connection ~ 4900 4900
+Wire Wire Line
+	4900 4900 4900 5300
+Wire Wire Line
+	5450 4900 5700 4900
+Connection ~ 5700 4900
+Wire Wire Line
+	5700 4900 5700 3900
+$Comp
+L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR0102
+U 1 1 5ABA1F09
+P 5200 4200
+F 0 "#PWR0102" H 5200 3950 50  0001 C CNN
+F 1 "GND" H 5205 4027 50  0000 C CNN
+F 2 "" H 5200 4200 50  0001 C CNN
+F 3 "" H 5200 4200 50  0001 C CNN
+	1    5200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR0103
+U 1 1 5ABA1F22
+P 5200 3600
+F 0 "#PWR0103" H 5200 3450 50  0001 C CNN
+F 1 "+3.3V" H 5215 3773 50  0000 C CNN
+F 2 "" H 5200 3600 50  0001 C CNN
+F 3 "" H 5200 3600 50  0001 C CNN
+	1    5200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5ABA1FA6
+P 4300 3250
+F 0 "R1" H 4370 3296 50  0000 L CNN
+F 1 "10k" H 4370 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4230 3250 50  0001 C CNN
+F 3 "~" H 4300 3250 50  0001 C CNN
+	1    4300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5ABA2380
+P 4300 4350
+F 0 "R2" H 4370 4396 50  0000 L CNN
+F 1 "10k" H 4370 4305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4230 4350 50  0001 C CNN
+F 3 "~" H 4300 4350 50  0001 C CNN
+	1    4300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR0104
+U 1 1 5ABA23CC
+P 4300 2700
+F 0 "#PWR0104" H 4300 2550 50  0001 C CNN
+F 1 "+3.3V" H 4315 2873 50  0000 C CNN
+F 2 "" H 4300 2700 50  0001 C CNN
+F 3 "" H 4300 2700 50  0001 C CNN
+	1    4300 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2700 4300 3100
+Wire Wire Line
+	4300 3400 4300 3800
+Wire Wire Line
+	4300 3800 5000 3800
+Connection ~ 4300 3800
+Wire Wire Line
+	4300 3800 4300 4200
+Wire Wire Line
+	3800 3500 3800 4000
+Wire Wire Line
+	3800 4000 4900 4000
+Connection ~ 4900 4000
+$Comp
+L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR0105
+U 1 1 5ABA3587
+P 4300 4800
+F 0 "#PWR0105" H 4300 4550 50  0001 C CNN
+F 1 "GND" H 4305 4627 50  0000 C CNN
+F 2 "" H 4300 4800 50  0001 C CNN
+F 3 "" H 4300 4800 50  0001 C CNN
+	1    4300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4800 4300 4500
+$Comp
+L led-sensor-2-rescue:GND-RESCUE-led-sensor-2 #PWR0106
+U 1 1 5ABA442C
+P 6500 4800
+F 0 "#PWR0106" H 6500 4550 50  0001 C CNN
+F 1 "GND" H 6505 4627 50  0000 C CNN
+F 2 "" H 6500 4800 50  0001 C CNN
+F 3 "" H 6500 4800 50  0001 C CNN
+	1    6500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led-sensor-2-rescue:+3.3V-RESCUE-led-sensor-2 #PWR0107
+U 1 1 5ABA4449
+P 6500 3700
+F 0 "#PWR0107" H 6500 3550 50  0001 C CNN
+F 1 "+3.3V" H 6515 3873 50  0000 C CNN
+F 2 "" H 6500 3700 50  0001 C CNN
+F 3 "" H 6500 3700 50  0001 C CNN
+	1    6500 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3700 6500 3950
+Wire Wire Line
+	6500 4250 6500 4800
+Wire Wire Line
+	5700 3900 7100 3900
+Connection ~ 5700 3900
+Wire Wire Line
+	6650 4100 7100 4100
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5ABA6D71
+P 2400 3000
+F 0 "J1" H 2480 3042 50  0000 L CNN
+F 1 "Conn_01x03" H 2480 2951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2400 3000 50  0001 C CNN
+F 3 "~" H 2400 3000 50  0001 C CNN
+	1    2400 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5ABA7A88
+P 3200 3000
+F 0 "C2" H 3315 3046 50  0000 L CNN
+F 1 "1u" H 3315 2955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3238 2850 50  0001 C CNN
+F 3 "~" H 3200 3000 50  0001 C CNN
+	1    3200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR02
+U 1 1 5ABA88B5
+P 2900 2700
+F 0 "#PWR02" H 2900 2550 50  0001 C CNN
+F 1 "+3.3V" H 2915 2873 50  0000 C CNN
+F 2 "" H 2900 2700 50  0001 C CNN
+F 3 "" H 2900 2700 50  0001 C CNN
+	1    2900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5ABA8BAF
+P 2900 3300
+F 0 "#PWR04" H 2900 3050 50  0001 C CNN
+F 1 "GND" H 2905 3127 50  0000 C CNN
+F 2 "" H 2900 3300 50  0001 C CNN
+F 3 "" H 2900 3300 50  0001 C CNN
+	1    2900 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2900 2900 2850
+Wire Wire Line
+	2600 2900 2900 2900
+Wire Wire Line
+	2900 3100 2900 3150
+Wire Wire Line
+	2600 3100 2900 3100
+Wire Wire Line
+	3200 2850 2900 2850
+Connection ~ 2900 2850
+Wire Wire Line
+	2900 2850 2900 2700
+Wire Wire Line
+	3200 3150 2900 3150
+Connection ~ 2900 3150
+Wire Wire Line
+	2900 3150 2900 3300
 $EndSCHEMATC
