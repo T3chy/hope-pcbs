@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ADP2301:ADP2301AUJZ-R2 U?
+L phone_charger-rescue:ADP2301AUJZ-R2-ADP2301 U?
 U 1 1 5B85ED45
 P 8600 1600
 F 0 "U?" H 8600 2400 60  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 8600 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L L?
+L phone_charger-rescue:L-device L?
 U 1 1 5B85F10E
 P 9750 1600
 F 0 "L?" V 9940 1600 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 9750 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C?
+L phone_charger-rescue:C-device C?
 U 1 1 5B85F280
 P 10500 1850
 F 0 "C?" H 10615 1896 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 10500 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L phone_charger-rescue:R-device R?
 U 1 1 5B85F3D3
 P 10100 1850
 F 0 "R?" H 10170 1896 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 10100 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L phone_charger-rescue:R-device R?
 U 1 1 5B85F4C9
 P 10100 2300
 F 0 "R?" H 10170 2346 50  0000 L CNN
@@ -108,7 +108,7 @@ F 3 "" H 8600 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D?
+L phone_charger-rescue:D_Schottky-device D?
 U 1 1 5B861A87
 P 9400 1750
 F 0 "D?" V 9354 1829 50  0000 L CNN
@@ -134,7 +134,7 @@ F 3 "" H 9400 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L phone_charger-rescue:C-device C?
 U 1 1 5B86257D
 P 9400 1400
 F 0 "C?" H 9515 1446 50  0000 L CNN
@@ -145,7 +145,7 @@ F 3 "" H 9400 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L phone_charger-rescue:C-device C?
 U 1 1 5B8626AF
 P 7100 1500
 F 0 "C?" H 7215 1546 50  0000 L CNN
@@ -205,7 +205,7 @@ Wire Notes Line
 Wire Notes Line
 	6300 500  6300 3350
 $Comp
-L device:R R?
+L phone_charger-rescue:R-device R?
 U 1 1 5B863BCD
 P 7750 1600
 F 0 "R?" H 7820 1646 50  0000 L CNN
@@ -216,7 +216,7 @@ F 3 "" H 7750 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L phone_charger-rescue:R-device R?
 U 1 1 5B863BFA
 P 7750 2100
 F 0 "R?" H 7820 2146 50  0000 L CNN
