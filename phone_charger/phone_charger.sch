@@ -311,8 +311,6 @@ F 3 "" H 6300 5950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6400 4950 6300 4950
-Wire Wire Line
-	6300 4950 6300 5950
 $Comp
 L phone_charger-rescue:VBUS-power #PWR010
 U 1 1 5B892D7D
@@ -510,4 +508,6 @@ F 3 "" H 3000 4150 50  0001 C CNN
 	1    3000 4150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6300 4950 6300 5950
 $EndSCHEMATC
