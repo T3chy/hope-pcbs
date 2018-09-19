@@ -517,4 +517,6 @@ Wire Wire Line
 Connection ~ 6200 5200
 Wire Wire Line
 	6200 5200 6200 5900
+Text Label 6950 1950 0    50   ~ 0
+SWN
 $EndSCHEMATC
