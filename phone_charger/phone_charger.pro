@@ -1,4 +1,4 @@
-update=Tue Sep 18 17:44:08 2018
+update=Tue Sep 18 18:25:53 2018
 version=1
 last_client=kicad
 [general]
@@ -62,8 +62,8 @@ SolderPasteRatio=-0
 Name=Power
 Clearance=0.1524
 TrackWidth=0.635
-ViaDiameter=0.8128
-ViaDrill=0.4064
+ViaDiameter=1.27
+ViaDrill=0.635
 uViaDiameter=0.5588
 uViaDrill=0.254
 dPairWidth=0.254
