@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_D_Schottky
+# Device:D_Schottky
 #
-DEF Device_D_Schottky D 0 40 N N 1 F N
+DEF Device:D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Schottky" 0 -100 50 H V C CNN
+F1 "Device:D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -23,11 +23,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_LED
+# Device:LED
 #
-DEF Device_LED D 0 40 N N 1 F N
+DEF Device:LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
+F1 "Device:LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -46,11 +46,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R
+# Device:R
 #
-DEF Device_R R 0 0 N Y 1 F N
+DEF Device:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
+F1 "Device:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -63,11 +63,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# phone_charger-rescue_ADP2302
+# phone_charger-rescue:ADP2302
 #
-DEF phone_charger-rescue_ADP2302 U 0 10 Y Y 1 F N
+DEF phone_charger-rescue:ADP2302 U 0 10 Y Y 1 F N
 F0 "U" 0 850 60 H V C CNN
-F1 "phone_charger-rescue_ADP2302" 0 750 60 H V C CNN
+F1 "phone_charger-rescue:ADP2302" 0 750 60 H V C CNN
 F2 "UJ_6" 0 650 60 H I C CNN
 F3 "" 0 -150 60 H V C CNN
 $FPLIST
@@ -89,11 +89,11 @@ X PGOOD 4 -650 -350 300 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# phone_charger-rescue_C-device
+# phone_charger-rescue:C-device
 #
-DEF phone_charger-rescue_C-device C 0 10 N Y 1 F N
+DEF phone_charger-rescue:C-device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "phone_charger-rescue_C-device" 25 -100 50 H V L CNN
+F1 "phone_charger-rescue:C-device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -107,11 +107,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# phone_charger-rescue_Conn_01x02-Connector_Generic
+# phone_charger-rescue:Conn_01x02-Connector_Generic
 #
-DEF phone_charger-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF phone_charger-rescue:Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "phone_charger-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "phone_charger-rescue:Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -126,11 +126,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# phone_charger-rescue_D_Schottky-device
+# phone_charger-rescue:D_Schottky-device
 #
-DEF phone_charger-rescue_D_Schottky-device D 0 40 N N 1 F N
+DEF phone_charger-rescue:D_Schottky-device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "phone_charger-rescue_D_Schottky-device" 0 -100 50 H V C CNN
+F1 "phone_charger-rescue:D_Schottky-device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -149,11 +149,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# phone_charger-rescue_GND-power
+# phone_charger-rescue:GND-power
 #
-DEF phone_charger-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF phone_charger-rescue:GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "phone_charger-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "phone_charger-rescue:GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -162,11 +162,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# phone_charger-rescue_L-device
+# phone_charger-rescue:L-device
 #
-DEF phone_charger-rescue_L-device L 0 40 N N 1 F N
+DEF phone_charger-rescue:L-device L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "phone_charger-rescue_L-device" 75 0 50 V V C CNN
+F1 "phone_charger-rescue:L-device" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -185,11 +185,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# phone_charger-rescue_Polyfuse-Device
+# phone_charger-rescue:Polyfuse-Device
 #
-DEF phone_charger-rescue_Polyfuse-Device F 0 0 N Y 1 F N
+DEF phone_charger-rescue:Polyfuse-Device F 0 0 N Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "phone_charger-rescue_Polyfuse-Device" 100 0 50 V V C CNN
+F1 "phone_charger-rescue:Polyfuse-Device" 100 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -205,11 +205,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# phone_charger-rescue_R-Device
+# phone_charger-rescue:R-Device
 #
-DEF phone_charger-rescue_R-Device R 0 0 N Y 1 F N
+DEF phone_charger-rescue:R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "phone_charger-rescue_R-Device" 0 0 50 V V C CNN
+F1 "phone_charger-rescue:R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -222,11 +222,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# phone_charger-rescue_R-device
+# phone_charger-rescue:R-device
 #
-DEF phone_charger-rescue_R-device R 0 0 N Y 1 F N
+DEF phone_charger-rescue:R-device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "phone_charger-rescue_R-device" 0 0 50 V V C CNN
+F1 "phone_charger-rescue:R-device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -240,11 +240,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# phone_charger-rescue_UE27AC54100-dk_USB-DVI-HDMI-Connectors
+# phone_charger-rescue:UE27AC54100-dk_USB-DVI-HDMI-Connectors
 #
-DEF phone_charger-rescue_UE27AC54100-dk_USB-DVI-HDMI-Connectors J 0 40 Y Y 1 F N
+DEF phone_charger-rescue:UE27AC54100-dk_USB-DVI-HDMI-Connectors J 0 40 Y Y 1 F N
 F0 "J" -50 375 60 H V C CNN
-F1 "phone_charger-rescue_UE27AC54100-dk_USB-DVI-HDMI-Connectors" -125 75 60 V V C CNN
+F1 "phone_charger-rescue:UE27AC54100-dk_USB-DVI-HDMI-Connectors" -125 75 60 V V C CNN
 F2 "digikey-footprints:USB_A_Female_UE27AC54100" 200 200 60 H I L CNN
 F3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" 200 300 60 H I L CNN
 F4 "UE27AC54100-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -282,11 +282,11 @@ X ~ SH 100 400 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# phone_charger-rescue_VBUS-power
+# phone_charger-rescue:VBUS-power
 #
-DEF phone_charger-rescue_VBUS-power #PWR 0 0 Y Y 1 F P
+DEF phone_charger-rescue:VBUS-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "phone_charger-rescue_VBUS-power" 0 150 50 H V C CNN
+F1 "phone_charger-rescue:VBUS-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -297,11 +297,11 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

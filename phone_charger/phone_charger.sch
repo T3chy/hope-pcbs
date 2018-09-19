@@ -343,7 +343,7 @@ U 1 1 5B8948D4
 P 2200 1600
 F 0 "J1" H 2120 1817 50  0000 C CNN
 F 1 "Conn_01x02" H 2120 1726 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.00mm" H 2200 1600 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2200 1600 50  0001 C CNN
 F 3 "~" H 2200 1600 50  0001 C CNN
 	1    2200 1600
 	-1   0    0    -1  
