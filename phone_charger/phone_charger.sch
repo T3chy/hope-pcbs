@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L phone_charger-rescue:L-device L1
+L Device:L L1
 U 1 1 5B85F10E
 P 7250 1950
 F 0 "L1" V 7440 1950 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 7250 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L phone_charger-rescue:C-device C4
+L Device:C C4
 U 1 1 5B85F280
 P 8000 2150
 F 0 "C4" H 8000 2550 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "" H 6100 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phone_charger-rescue:D_Schottky-device D3
+L Device:D_Schottky D3
 U 1 1 5B861A87
 P 6900 2100
 F 0 "D3" V 6854 2179 50  0000 L CNN
@@ -94,7 +94,7 @@ F 3 "" H 6900 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phone_charger-rescue:C-device C2
+L Device:C C2
 U 1 1 5B86257D
 P 6900 1750
 F 0 "C2" H 6950 1950 50  0000 L CNN
@@ -105,7 +105,7 @@ F 3 "" H 6900 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phone_charger-rescue:C-device C1
+L Device:C C1
 U 1 1 5B8626AF
 P 4700 1750
 F 0 "C1" H 4815 1796 50  0000 L CNN
@@ -138,7 +138,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 1950 7100 1950
 $Comp
-L phone_charger-rescue:R-device R2
+L Device:R R2
 U 1 1 5B863BFA
 P 5350 2100
 F 0 "R2" H 5420 2146 50  0000 L CNN
@@ -169,7 +169,7 @@ F 12 "Active" H 6800 5900 60  0001 L CNN "Status"
 	-1   0    0    1   
 $EndComp
 $Comp
-L phone_charger-rescue:R-Device R3
+L Device:R R3
 U 1 1 5B88DF7C
 P 5400 3950
 F 0 "R3" H 5470 3996 50  0000 L CNN
@@ -180,7 +180,7 @@ F 3 "~" H 5400 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phone_charger-rescue:R-Device R4
+L Device:R R4
 U 1 1 5B88E002
 P 5400 4450
 F 0 "R4" H 5470 4496 50  0000 L CNN
@@ -224,7 +224,7 @@ F 3 "" H 5400 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phone_charger-rescue:R-Device R5
+L Device:R R5
 U 1 1 5B88ED75
 P 5400 5250
 F 0 "R5" H 5470 5296 50  0000 L CNN
@@ -235,7 +235,7 @@ F 3 "~" H 5400 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phone_charger-rescue:R-Device R6
+L Device:R R6
 U 1 1 5B88ED7B
 P 5400 5750
 F 0 "R6" H 5470 5796 50  0000 L CNN
@@ -268,7 +268,7 @@ F 3 "" H 5400 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phone_charger-rescue:R-Device R7
+L Device:R R7
 U 1 1 5B88F6A0
 P 5700 4750
 F 0 "R7" H 5750 5050 50  0000 L CNN
@@ -327,7 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 4600 6300 4600
 $Comp
-L phone_charger-rescue:Polyfuse-Device F1
+L Device:Polyfuse F1
 U 1 1 5B8946FD
 P 2850 1600
 F 0 "F1" V 2625 1600 50  0000 C CNN
@@ -413,7 +413,7 @@ Connection ~ 5350 1600
 Wire Wire Line
 	7400 1950 7550 1950
 $Comp
-L phone_charger-rescue:C-device C3
+L Device:C C3
 U 1 1 5BA0CE0C
 P 7550 2150
 F 0 "C3" H 7550 2550 50  0000 L CNN
