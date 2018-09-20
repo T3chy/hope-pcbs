@@ -459,11 +459,6 @@ Wire Wire Line
 	6750 2300 6750 2600
 Wire Wire Line
 	8000 1950 8400 1950
-Wire Wire Line
-	8400 2600 8400 1950
-Wire Wire Line
-	6750 2600 8400 2600
-Connection ~ 8400 1950
 $Comp
 L Device:D_Schottky D2
 U 1 1 5BA3B056
@@ -543,4 +538,49 @@ Wire Wire Line
 	6200 5200 6200 5900
 Text Label 6950 1950 0    50   ~ 0
 SWN
+$Comp
+L Device:R R8
+U 1 1 5BA427B1
+P 8400 2300
+F 0 "R8" H 8470 2346 50  0000 L CNN
+F 1 "52.3k (1%)" H 8470 2255 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8330 2300 50  0001 C CNN
+F 3 "~" H 8400 2300 50  0001 C CNN
+	1    8400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5BA42AA2
+P 8400 2800
+F 0 "R9" H 8470 2846 50  0000 L CNN
+F 1 "10k (1%)" H 8470 2755 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8330 2800 50  0001 C CNN
+F 3 "~" H 8400 2800 50  0001 C CNN
+	1    8400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2600 8400 2600
+Wire Wire Line
+	8400 2600 8400 2450
+Wire Wire Line
+	8400 2150 8400 1950
+Connection ~ 8400 1950
+Wire Wire Line
+	8400 2600 8400 2650
+Connection ~ 8400 2600
+$Comp
+L power:GND #PWR0101
+U 1 1 5BA44B42
+P 8400 3050
+F 0 "#PWR0101" H 8400 2800 50  0001 C CNN
+F 1 "GND" H 8405 2877 50  0000 C CNN
+F 2 "" H 8400 3050 50  0001 C CNN
+F 3 "" H 8400 3050 50  0001 C CNN
+	1    8400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 2950 8400 3050
 $EndSCHEMATC
