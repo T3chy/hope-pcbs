@@ -155,16 +155,9 @@ P 6600 4700
 F 0 "J2" H 6497 4640 60  0000 R CNN
 F 1 "SS-52100-001" H 6497 4746 60  0000 R CNN
 F 2 "phone_charger:USB_A_Female_SS-52100-001" H 6800 4900 60  0001 L CNN
-F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" H 6800 5000 60  0001 L CNN
-F 4 "UE27AC54100-ND" H 6800 5100 60  0001 L CNN "Digi-Key_PN"
-F 5 "UE27AC54100" H 6800 5200 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 6800 5300 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 6800 5400 60  0001 L CNN "Family"
-F 8 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" H 6800 5500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/amphenol-commercial-products/UE27AC54100/UE27AC54100-ND/1972253" H 6800 5600 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN RCPT USB TYPE A R/A GOLD" H 6800 5700 60  0001 L CNN "Description"
-F 11 "Amphenol Commercial Products" H 6800 5800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6800 5900 60  0001 L CNN "Status"
+F 3 "https://belfuse.com/resources/drawings/stewartconnector/dr-stw-ss-52100-001.pdf" H 6800 5000 60  0001 L CNN
+F 4 "380-1412-ND" H 6600 4700 50  0001 C CNN "Digi-Key_PN"
+F 5 "SS-52100-001" H 6600 4700 50  0001 C CNN "MPN"
 	1    6600 4700
 	-1   0    0    1   
 $EndComp
