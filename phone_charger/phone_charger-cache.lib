@@ -239,6 +239,18 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# phone_charger-rescue:logo-symbol
+#
+DEF phone_charger-rescue:logo-symbol LOGO 0 40 Y Y 1 F N
+F0 "LOGO" 0 0 50 H V C CNN
+F1 "phone_charger-rescue:logo-symbol" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -100 50 0 0 0 "Placeholder for Silkscreen Logo" Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 # power:GND
 #
 DEF power:GND #PWR 0 0 Y Y 1 F P

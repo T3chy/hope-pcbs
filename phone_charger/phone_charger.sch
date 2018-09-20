@@ -583,4 +583,26 @@ F 3 "" H 8400 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8400 2950 8400 3050
+$Comp
+L phone_charger-rescue:logo-symbol LOGO1
+U 1 1 5BA54FEB
+P 1350 2750
+F 0 "LOGO1" H 1350 2848 50  0000 C CNN
+F 1 "logo-symbol" H 1350 2757 50  0000 C CNN
+F 2 "phone_charger:bac-logo" H 1350 2750 50  0001 C CNN
+F 3 "" H 1350 2750 50  0001 C CNN
+	1    1350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L phone_charger-rescue:logo-symbol LOGO2
+U 1 1 5BA55205
+P 1350 3150
+F 0 "LOGO2" H 1350 3248 50  0000 C CNN
+F 1 "logo-symbol" H 1350 3157 50  0000 C CNN
+F 2 "phone_charger:ieee-logo-inv" H 1350 3150 50  0001 C CNN
+F 3 "" H 1350 3150 50  0001 C CNN
+	1    1350 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
