@@ -153,7 +153,7 @@ L phone_charger-rescue:UE27AC54100-dk_USB-DVI-HDMI-Connectors J2
 U 1 1 5B88DA27
 P 6600 4700
 F 0 "J2" H 6497 4640 60  0000 R CNN
-F 1 "UE27AC54100" H 6497 4746 60  0000 R CNN
+F 1 "SS-52100-001" H 6497 4746 60  0000 R CNN
 F 2 "phone_charger:USB_A_Female_SS-52100-001" H 6800 4900 60  0001 L CNN
 F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" H 6800 5000 60  0001 L CNN
 F 4 "UE27AC54100-ND" H 6800 5100 60  0001 L CNN "Digi-Key_PN"
@@ -392,7 +392,8 @@ P 6100 1950
 F 0 "U1" H 6100 2687 60  0000 C CNN
 F 1 "ADP2302" H 6100 2581 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm" H 6100 2600 60  0001 C CNN
-F 3 "" H 6100 1800 60  0000 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf" H 6100 1800 60  0000 C CNN
+F 4 "584-ADP2302ARDZ-R7" H 6100 1950 50  0001 C CNN "Digi-Key_PN"
 	1    6100 1950
 	1    0    0    -1  
 $EndComp
