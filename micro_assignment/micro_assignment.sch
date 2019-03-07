@@ -627,14 +627,6 @@ Connection ~ 6650 5400
 Text Label 9450 2700 1    50   ~ 0
 VUSB
 Wire Wire Line
-	10650 5300 11050 5300
-Text Label 9550 6300 1    50   ~ 0
-SCK
-Text Label 9950 6300 1    50   ~ 0
-MOSI
-Text Label 10650 5300 0    50   ~ 0
-MISO
-Wire Wire Line
 	10650 4300 11050 4300
 Text Label 10650 4300 0    50   ~ 0
 TXD
@@ -642,12 +634,6 @@ Wire Wire Line
 	10650 4200 11050 4200
 Text Label 10650 4200 0    50   ~ 0
 RXD
-Text Label 9650 6300 1    50   ~ 0
-SDA
-Text Label 9750 6300 1    50   ~ 0
-SCL
-Text Label 9850 6300 1    50   ~ 0
-STE
 Wire Wire Line
 	8350 2700 8350 2500
 Wire Wire Line
@@ -666,8 +652,6 @@ Text Label 8050 2700 1    50   ~ 0
 A3
 Wire Wire Line
 	8950 2700 8950 2500
-Text Label 6950 4900 0    50   ~ 0
-CS_SD
 Wire Wire Line
 	7350 4500 6850 4500
 Wire Wire Line
@@ -685,29 +669,9 @@ Connection ~ 6200 4500
 Wire Wire Line
 	6200 4700 7350 4700
 Wire Wire Line
-	7350 4900 6950 4900
-Wire Wire Line
 	7000 4300 7000 4400
 Wire Wire Line
 	7000 4400 7350 4400
-Wire Wire Line
-	7350 4200 7050 4200
-Wire Wire Line
-	7350 4100 7050 4100
-Wire Wire Line
-	10650 5000 11050 5000
-Text Label 7050 4200 0    50   ~ 0
-INT_ICM
-Wire Wire Line
-	9550 6000 9550 6300
-Wire Wire Line
-	9650 6000 9650 6300
-Wire Wire Line
-	9750 6000 9750 6300
-Wire Wire Line
-	9850 6000 9850 6300
-Wire Wire Line
-	9950 6000 9950 6300
 Text Label 8250 2350 0    50   ~ 0
 ~RST
 $Comp
@@ -897,10 +861,6 @@ F 3 "" H 5850 4500 50  0001 C CNN
 	1    5850 4500
 	1    0    0    -1  
 $EndComp
-Text Label 7050 4100 0    50   ~ 0
-CS_ICM
-Text Label 10650 5000 0    50   ~ 0
-DET_SD
 Wire Wire Line
 	2100 4300 3400 4300
 Wire Wire Line
