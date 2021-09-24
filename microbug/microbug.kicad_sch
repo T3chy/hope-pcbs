@@ -1465,6 +1465,11 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid fc0f128e-3a58-4f75-80f7-57a71af25446)
   )
+  (text "I assume these were connected differently in the PCB for a reason?\n(specifically r2 and r4)\n"
+    (at 190.627 152.781 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4ef88ede-7e57-4dde-bd37-edea01d33d64)
+  )
   (text "Motors" (at 191.77 46.99 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid c69e2062-9159-4487-b961-b57376d2011c)
