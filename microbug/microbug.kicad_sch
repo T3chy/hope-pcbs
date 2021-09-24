@@ -2390,7 +2390,7 @@
     (in_bom yes) (on_board yes)
     (uuid 3014f0b8-0092-432c-bc72-38f86faad22e)
     (property "Reference" "U5" (id 0) (at 229.108 57.404 0))
-    (property "Value" "TC78H651AFNG" (id 1) (at 202.184 57.404 0))
+    (property "Value" "TC78H660FNG" (id 1) (at 202.184 57.404 0))
     (property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" (id 2) (at 212.344 85.852 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2595,7 +2595,7 @@
       (reference "U4") (unit 1) (value "QRE1113GR") (footprint "OptoDevice:Everlight_ITR8307F43")
     )
     (path "/3014f0b8-0092-432c-bc72-38f86faad22e"
-      (reference "U5") (unit 1) (value "TC78H651AFNG") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
+      (reference "U5") (unit 1) (value "TC78H660FNG") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
     )
   )
 )
