@@ -2858,7 +2858,7 @@
   (gr_text "prg     bat" (at 84.836 54.356 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005e6f27e4)
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
   )
-  (gr_text "udpi  +  -" (at 63.5 54.864 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005e6f27e7)
+  (gr_text "RX  TX  +   -" (at 63.5 53.34 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005e6f27e7)
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
   )
   (gr_text "PROG" (at 61.468 59.944) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005e6f27ea)
