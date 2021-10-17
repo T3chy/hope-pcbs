@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "door_control_fp")(type "KiCad")(uri "${KIPRJMOD}/door_control_fp.pretty")(options "")(descr ""))
+)

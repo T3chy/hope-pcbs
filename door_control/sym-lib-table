@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "door_control")(type "KiCad")(uri "${KIPRJMOD}/door_control.kicad_sym")(options "")(descr ""))
+)
