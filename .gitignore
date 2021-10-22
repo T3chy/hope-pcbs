@@ -5,4 +5,5 @@
 *.kicad_pcb-bak
 *.swp
 *.xml
+*-backups*
 fp-info-cache
